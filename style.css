@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width:30%;
+}
+
+.container-fluidd{
+    position: relative;
+}
+
+
+.header{
+background-color: transparent !important;
+position: fixed;
+z-index: 9999;
+width: 100%;
+padding: 1.5rem 15rem;
+border-bottom: 1px solid rgba(172, 170, 170, 0.529);
+border-bottom-width: thin;
+
+}
+
+
+.header ul li a{
+    color: white !important;
+}
+
+
+.bg1 {
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(./images/2\ \(1\).jpg);
+    background-size: cover;
+}
+.bg2 {
+    height: 100vh;
+    background:linear-gradient( rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),  url(./images/banner12.jpg) ;
+    
+    background-size: cover;
+   
+}
+.bg3 {
+    height: 100vh;
+    background:linear-gradient( rgba(0, 0, 0, 0.488),rgba(0, 0, 0, 0.488)), url(./images/3.jpg);;
+    background-size: cover;
+
+}
+
+.content{
+    margin-top: 15rem;
+}
+
+h3{
+    font-size: 70px;
+    font-family: Libre Caslon Display, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 70px;
+}
+
+h4{
+    font-family:Libre Caslon Display, serif ;
+    Font-size:35px;
+    font-weight: 400;
+    color: rgb(193, 157, 96);
+}
+
+.venue{
+    line-height: 22.5px;
+    font-weight: bold;
+}
+
+.btn1{
+    font-family: Noah, sans-serif;
+    Font-size:13px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding: 0.7rem 2rem;
+    background: transparent;
+    border: 1px burlywood solid;
+    transition: 0.9s;
+}
+
+.btn1:hover{
+    background: burlywood;
+    transition: 0.9s;
+    color: white;
+}
+
+button{
+    border: 3px solide burlywood;
+    
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.dropdown-item:hover{
+    background: burlywood; 
+}
+
+.body1{
+height: 85vh;
+background-color: rgb(255,255,255);
+
+}
+
+
+.content1{
+    padding: 3rem;
+    width: 50%;
+}
+
+.photo{
+ width: 100%;
+ justify-content: space-evenly;
+}
