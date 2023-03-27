@@ -104,18 +104,165 @@ button{
 }
 
 .body1{
-height: 85vh;
-background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 7rem;
+    height: 85vh;
+    background-color: rgb(255,255,255);
 
 }
 
 
-.content1{
-    padding: 3rem;
+.content1{ 
     width: 50%;
+    padding: 4rem;
 }
 
 .photo{
- width: 100%;
- justify-content: space-evenly;
+    width: 50%;
+    gap: 2rem;
+    height: 60vh !important;
 }
+
+.photo1{
+ width: 40%;
+ height: 70vh;
+ margin-top: auto;
+}
+.photo2{
+ width: 40%;
+ height: 80vh;
+ margin-bottom: auto;
+}
+
+h5{
+   font-family: Libre Caslon Display serif;
+   font-size: 48px;
+   font-weight: 400;
+   line-height:48px;
+   color: rgb(27, 27, 27);
+}
+.cand{
+    font-family: Noah, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26.25px;
+    color: rgb(193, 157, 96);
+}
+
+.chelf{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+    background-color: rgb(27,27,27);
+    height: 100vh;
+    margin-top: 3rem;
+    /* padding: 2rem 13rem; */
+
+}
+
+.chelf1{
+    width: 30%;
+    padding: 0rem 0rem 0rem 5rem;
+    margin-left: 5rem;
+}
+
+.years{
+    width: 50%;
+    /* padding: 0rem 7rem 0rem 3rem; */
+}
+
+.images{
+    width: 100%;
+   margin-left: 2rem;
+}
+.exc, .master {
+    font-size:12px;
+    font-family: Noah, sans-serif;
+    font-weight: 500;
+    color: rgb(193, 157, 96);
+    line-height:26.25px;
+}
+
+.Big{
+   font-family:Libre Caslon Display, serif;
+   font-weight: 400;
+   color:  rgb(255, 255, 255);
+   Font-size:48px;
+   line-height: 48px;
+   color: rgb(255, 255, 255);
+}
+.lom{
+    font-family:Noah, sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgb(119, 119, 119);
+    line-height:26.25px;
+    padding-right: 17rem;
+}
+
+.name{
+    padding-left: 1rem;
+}
+.signature{
+    width: 10%;
+}
+
+.recommend{
+
+    background-color: white;
+    height: 80vh;
+}
+
+.food1{
+    background-image: url(./images/hamburger.jpg);
+    background-size: cover;
+    height: 60vh;
+    overflow: hidden;
+
+}
+.food2{
+    background-image: url(./images/salad.jpg);
+    background-size: cover;
+    height: 60vh;
+    overflow: hidden;
+}
+.food3{
+    background-image: url(./images/wine.jpg);
+    background-size: cover;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.food3:hover >.zoom{
+    transition: 1s;
+}
+
+.zoom{
+    padding-top: 99%;
+    transition: 1s;
+    line-height: 23px;
+    transform: translateY(4rem);
+    -webkit-transform: translate(1rem);
+    -moz-transform: translate(1rem);
+    -ms-transform: translate(1rem);
+    -o-transform: translate(1rem);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transform: 1s;
+    -o-transition: 1s;
+}
+
+
+
+.line{
+    width: 30%;
+    height: 0.2rem;
+    background: white;
+    margin: 10px auto;
+
+}
+
