@@ -214,55 +214,273 @@ h5{
 .recommend{
 
     background-color: white;
-    height: 80vh;
+    height: 90vh;
+    margin-top: 6rem;
 }
 
 .food1{
-    background-image: url(./images/hamburger.jpg);
-    background-size: cover;
-    height: 60vh;
-    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)), url(./images/hamburger.jpg);
+    background-size: cover; 
+    height: 100%;
+    transition: 1s;
+}
 
+.cook{
+    height: 60vh;
+    overflow: hidden;
+    margin-top: 3rem;
 }
+
+.food1:hover{
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.food1:hover >.zoom{
+    transition: 1s;
+    line-height: 20px;
+    transform: translateY(17rem);
+}
+
+
 .food2{
-    background-image: url(./images/salad.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)), url(./images/salad.jpg);
     background-size: cover;
-    height: 60vh;
-    overflow: hidden;
+    height: 100%;
+    transition: 1s;
 }
+
+
+.food2:hover{
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.food2:hover >.zoom{
+    transition: 1s;
+    line-height: 23px;
+    transform: translateY(17rem);
+}
+.food2:hover{
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+
 .food3{
-    background-image: url(./images/wine.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)), url(./images/wine.jpg);
     background-size: cover;
-    height: 60vh;
-    overflow: hidden;
+    height: 100%;
+    transition: 1s;
 }
 
 .food3:hover >.zoom{
     transition: 1s;
+    line-height: 23px;
+    transform: translateY(17rem);
 }
+.food3:hover{
+    transform:scale(1.1);
+    transition: 1s;
+}
+
 
 .zoom{
-    padding-top: 99%;
+    padding-top: 0.8rem;
     transition: 1s;
     line-height: 23px;
-    transform: translateY(4rem);
-    -webkit-transform: translate(1rem);
-    -moz-transform: translate(1rem);
-    -ms-transform: translate(1rem);
-    -o-transform: translate(1rem);
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transform: 1s;
-    -o-transition: 1s;
+    transform: translateY(20rem);
 }
-
-
 
 .line{
     width: 30%;
-    height: 0.2rem;
+    height: 0.3px;
     background: white;
     margin: 10px auto;
+    transition: 0.9s;
+}
+
+.zoom:hover .line{
+    width: 80%;
+    transition: 0.8s;
+}
+
+
+
+.cha{
+    font-family:Libre Caslon Display serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height:40.25px;
+    color: rgb(74, 72, 72);
+}
+
+.rusty{
+   font-family:Libre Caslon Display serif; 
+   font-size: 27px;
+   font-weight: 400;
+}
+.para{
+    font-family:Noah, sans-serif ; 
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.eat{
+    color: rgb(193, 157, 96);
+    font-size: 19px;
+    font-weight: 700;
+    font-family: Noah, sans-serif;
+}
+
+.fa{
+font-size: 30px;
+color: rgb(193, 157, 96);
+}
+
+.line1a{
+    width: 7%;
+    height: 0.2px;
+    background: rgba(193, 157, 96, 0.357);
+    margin-top: 10px;
+}
+.ted{
+    color: rgb(193, 157, 96);
+    font-weight:400 ;
+}
+
+.star{
+    background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)), url(./images/banner5.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 80vh;
+    position: absolute;
 
 }
 
+.emily{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px rgba(245, 245, 245, 0.271) solid;
+}
+.mages{
+    border-radius: 50%;
+}
+
+.customer-review{
+    padding-top:15rem;
+}
+
+.low{
+    margin-right:35rem;
+    line-height: 25px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.review{
+    line-height: 10px;
+    
+}
+
+.emil{
+    color: rgb(193, 157, 96);
+    font-weight: 400;
+}
+
+.conz{
+    font-weight: 500;
+    color: beige;
+    font-size: 12px;
+}
+
+.fa-star{
+    font-size: 15px;
+}
+
+.hour{
+    height: 450px;
+    width: 500px;
+    background-color: rgb(27,27,27);
+    position: relative;
+    left: 60%;
+    top: 250px;
+    padding: 2rem;
+}
+
+.saturday{
+    justify-content: space-evenly;
+    padding-top: 2.5rem;
+}
+
+.lineb{
+    /* padding: 4px; */
+    height: 4rem;
+    color:white;
+}
+
+.lunch{
+
+    height: 70vh;
+    color: rgb(255,255,255);
+    
+}
+
+.time{
+    font-family: "Libre Caslon Display", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height:25px;
+    color: rgb(119, 119, 119);
+}
+
+.fri{
+    font-weight: 500;
+}
+.open{
+    font-family: "Libre Caslon Display", serif;
+    font-size: 36px;
+}
+
+
+.btn2{
+    font-family: Noah, sans-serif;
+    Font-size:12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding: 0.7rem 2rem;
+    border: 1px burlywood solid;
+   margin-left: 7rem;
+}
+.btn2:hover{
+        background: burlywood;
+        transition: 0.9s;
+        color: white;
+}
+
+span{
+    color:  rgb(193, 157, 96);
+    font-weight: 400;
+}
+
+.map{
+    font-size: 13px;
+    line-height: 10px;
+}
+.num{
+    font-size: 13px;
+    line-height: 10px;
+    margin-top: 3rem;
+}
+
+.fa-map-marker{
+    font-size: 14px;
+}
+
+.box1{
+    height: 100px;
+    width: 50%;
+    color: red;
+    background-color: blue;
+}
