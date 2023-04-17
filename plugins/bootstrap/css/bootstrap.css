@@ -153,13 +153,15 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: rgb(193, 157, 96);
   text-decoration: none;
   background-color: transparent;
+  font-size: 24px;
+  font-family: Noah sans-serif;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #fffdfd;
   text-decoration: underline;
 }
 
@@ -4294,7 +4296,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: transparent;
 }
 
 .nav-fill .nav-item {

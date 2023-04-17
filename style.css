@@ -1,656 +1,702 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.logo{
-    width:30%;
+.logo {
+  width: 30%;
 }
 
-.container-fluidd{
-    position: relative;
+.container-fluidd {
+  position: relative;
 }
 
-
-.header{
-background-color: transparent !important;
-position: fixed;
-z-index: 9999;
-width: 100%;
-padding: 1.5rem 15rem;
-border-bottom: 1px solid rgba(172, 170, 170, 0.529);
-border-bottom-width: thin;
-
+.header {
+  background-color: transparent !important;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  padding: 1.5rem 15rem;
+  border-bottom: 1px solid rgba(172, 170, 170, 0.529);
+  border-bottom-width: thin;
 }
 
-
-.header ul li a{
-    color: white !important;
+.header ul li a {
+  color: white !important;
 }
-
 
 .bg1 {
-    height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(./images/2\ \(1\).jpg);
-    background-size: cover;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)),
+    url(./images/2\ \(1\).jpg);
+  background-size: cover;
 }
+
 .bg2 {
-    height: 100vh;
-    background:linear-gradient( rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),  url(./images/banner12.jpg) ;
-    
-    background-size: cover;
-   
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),
+    url(./images/banner12.jpg);
+
+  background-size: cover;
 }
 .bg3 {
-    height: 100vh;
-    background:linear-gradient( rgba(0, 0, 0, 0.488),rgba(0, 0, 0, 0.488)), url(./images/3.jpg);;
-    background-size: cover;
-
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),
+    url(./images/3.jpg);
+  background-size: cover;
 }
 
-.content{
-    margin-top: 15rem;
+.content {
+  margin-top: 15rem;
 }
 
-h3{
-    font-size: 70px;
-    font-family: Libre Caslon Display, serif;
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-    line-height: 70px;
+h3 {
+  font-size: 70px;
+  font-family: Libre Caslon Display, serif;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  line-height: 70px;
 }
 
-h4{
-    font-family:Libre Caslon Display, serif ;
-    Font-size:35px;
-    font-weight: 400;
-    color: rgb(193, 157, 96);
+h4 {
+  font-family: Libre Caslon Display, serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: rgb(193, 157, 96);
 }
 
-.venue{
-    line-height: 22.5px;
-    font-weight: bold;
+.venue {
+  line-height: 22.5px;
+  font-weight: bold;
 }
 
-.btn1{
-    font-family: Noah, sans-serif;
-    Font-size:13px;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    padding: 0.7rem 2rem;
-    background: transparent;
-    border: 1px burlywood solid;
-    transition: 0.9s;
+.btn1 {
+  font-family: Noah, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  padding: 0.7rem 2rem;
+  background: transparent;
+  border: 1px burlywood solid;
+  transition: 0.9s;
 }
 
-.btn1:hover{
-    background: burlywood;
-    transition: 0.9s;
-    color: white;
+.btn1:hover {
+  background: burlywood;
+  transition: 0.9s;
+  color: white;
 }
 
-button{
-    border: 3px solide burlywood;
-    
+button {
+  border: 3px solide burlywood;
 }
 
-.dropdown-menu{
-    background-color: black;
+.dropdown-menu {
+  background-color: black;
 }
 
-.dropdown-item:hover{
-    background: burlywood; 
+.dropdown-item:hover {
+  background: burlywood;
 }
-
-.body1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 7rem;
-    height: 85vh;
-    background-color: rgb(255,255,255);
 
+.body1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 7rem;
+  height: 85vh;
+  background-color: rgb(255, 255, 255);
 }
 
-
-.content1{ 
-    width: 50%;
-    padding: 4rem;
+.content1 {
+  width: 50%;
+  padding: 4rem;
 }
 
-.photo{
-    width: 50%;
-    gap: 2rem;
-    height: 60vh !important;
+.photo {
+  width: 50%;
+  gap: 2rem;
+  height: 60vh !important;
 }
 
-.photo1{
- width: 40%;
- height: 70vh;
- margin-top: auto;
+.photo1 {
+  width: 40%;
+  height: 70vh;
+  margin-top: auto;
 }
-.photo2{
- width: 40%;
- height: 80vh;
- margin-bottom: auto;
+.photo2 {
+  width: 40%;
+  height: 80vh;
+  margin-bottom: auto;
 }
 
-h5{
-   font-family: Libre Caslon Display serif;
-   font-size: 48px;
-   font-weight: 400;
-   line-height:48px;
-   color: rgb(27, 27, 27);
+h5 {
+  font-family: Libre Caslon Display serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgb(27, 27, 27);
 }
-.cand{
-    font-family: Noah, sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 26.25px;
-    color: rgb(193, 157, 96);
+.cand {
+  font-family: Noah, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26.25px;
+  color: rgb(193, 157, 96);
 }
-
-.chelf{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
-    justify-content: center;
-    background-color: rgb(27,27,27);
-    height: 100vh;
-    margin-top: 4.5rem;
-    /* padding: 2rem 13rem; */
 
+.chelf {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: center;
+  background-color: rgb(27, 27, 27);
+  height: 100vh;
+  margin-top: 4.5rem;
+  /* padding: 2rem 13rem; */
 }
 
-.chelf1{
-    width: 30%;
-    padding: 0rem 0rem 0rem 5rem;
-    margin-left: 5rem;
+.chelf1 {
+  width: 30%;
+  padding: 0rem 0rem 0rem 5rem;
+  margin-left: 5rem;
 }
 
-.years{
-    width: 50%;
-    /* padding: 0rem 7rem 0rem 3rem; */
+.years {
+  width: 50%;
+  /* padding: 0rem 7rem 0rem 3rem; */
 }
 
-.images{
-    width: 100%;
-   margin-left: 2rem;
+.images {
+  width: 100%;
+  margin-left: 2rem;
 }
-.exc, .master {
-    font-size:12px;
-    font-family: Noah, sans-serif;
-    font-weight: 500;
-    color: rgb(193, 157, 96);
-    line-height:26.25px;
+.exc,
+.master {
+  font-size: 12px;
+  font-family: Noah, sans-serif;
+  font-weight: 500;
+  color: rgb(193, 157, 96);
+  line-height: 26.25px;
 }
 
-.Big{
-   font-family:Libre Caslon Display, serif;
-   font-weight: 400;
-   color:  rgb(255, 255, 255);
-   Font-size:48px;
-   line-height: 48px;
-   color: rgb(255, 255, 255);
+.Big {
+  font-family: Libre Caslon Display, serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
 }
-.lom{
-    font-family:Noah, sans-serif;
-    font-size: 15px;
-    font-weight: 400px;
-    color: rgb(119, 119, 119);
-    line-height:26.25px;
-    padding-right: 17rem;
+.lom {
+  font-family: Noah, sans-serif;
+  font-size: 15px;
+  font-weight: 400px;
+  color: rgb(119, 119, 119);
+  line-height: 26.25px;
+  padding-right: 17rem;
 }
 
-.name{
-    padding-left: 1rem;
+.name {
+  padding-left: 1rem;
 }
-.signature{
-    width: 10%;
+.signature {
+  width: 10%;
 }
 
-.recommend{
-
-    background-color: white;
-    height: 90vh;
-    margin-top: 6rem;
+.recommend {
+  background-color: white;
+  height: 90vh;
+  margin-top: 6rem;
 }
 
-.food1{
-    background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)), url(./images/hamburger.jpg);
-    background-size: cover; 
-    height: 100%;
-    transition: 1s;
+.food1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),
+    url(./images/hamburger.jpg);
+  background-size: cover;
+  height: 100%;
+  transition: 1s;
 }
 
-.cook{
-    height: 60vh;
-    overflow: hidden;
-    margin-top: 3rem;
+.cook {
+  height: 60vh;
+  overflow: hidden;
+  margin-top: 3rem;
 }
 
-.food1:hover{
-    transform:scale(1.1);
-    transition: 1s;
+.food1:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
-.food1:hover >.zoom{
-    transition: 1s;
-    line-height: 20px;
-    transform: translateY(17rem);
+.food1:hover > .zoom {
+  transition: 1s;
+  line-height: 20px;
+  transform: translateY(17rem);
 }
-
 
-.food2{
-    background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)), url(./images/salad.jpg);
-    background-size: cover;
-    height: 100%;
-    transition: 1s;
+.food2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),
+    url(./images/salad.jpg);
+  background-size: cover;
+  height: 100%;
+  transition: 1s;
 }
 
-
-.food2:hover{
-    transform:scale(1.1);
-    transition: 1s;
+.food2:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
-.food2:hover >.zoom{
-    transition: 1s;
-    line-height: 23px;
-    transform: translateY(17rem);
+.food2:hover > .zoom {
+  transition: 1s;
+  line-height: 23px;
+  transform: translateY(17rem);
 }
-.food2:hover{
-    transform:scale(1.1);
-    transition: 1s;
+.food2:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
-
 
-.food3{
-    background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)), url(./images/wine.jpg);
-    background-size: cover;
-    height: 100%;
-    transition: 1s;
+.food3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),
+    url(./images/wine.jpg);
+  background-size: cover;
+  height: 100%;
+  transition: 1s;
 }
 
-.food3:hover >.zoom{
-    transition: 1s;
-    line-height: 23px;
-    transform: translateY(17rem);
+.food3:hover > .zoom {
+  transition: 1s;
+  line-height: 23px;
+  transform: translateY(17rem);
 }
-.food3:hover{
-    transform:scale(1.1);
-    transition: 1s;
+.food3:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
-
-.zoom{
-    padding-top: 0.8rem;
-    transition: 1s;
-    line-height: 23px;
-    transform: translateY(20rem);
+.zoom {
+  padding-top: 0.8rem;
+  transition: 1s;
+  line-height: 23px;
+  transform: translateY(20rem);
 }
 
-.line{
-    width: 30%;
-    height: 0.3px;
-    background: white;
-    margin: 10px auto;
-    transition: 0.9s;
+.line {
+  width: 30%;
+  height: 0.3px;
+  background: white;
+  margin: 10px auto;
+  transition: 0.9s;
 }
 
-.zoom:hover .line{
-    width: 80%;
-    transition: 0.8s;
+.zoom:hover .line {
+  width: 80%;
+  transition: 0.8s;
 }
-
 
-
-.cha{
-    font-family:Libre Caslon Display serif;
-    font-weight: 500;
-    font-size: 45px;
-    line-height:40.25px;
-    color: rgb(74, 72, 72);
+.cha {
+  font-family: Libre Caslon Display serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 40.25px;
+  color: rgb(74, 72, 72);
 }
 
-.rusty{
-   font-family:Libre Caslon Display serif; 
-   font-size: 27px;
-   font-weight: 400;
+.rusty {
+  font-family: Libre Caslon Display serif;
+  font-size: 27px;
+  font-weight: 400;
 }
-.para{
-    font-family:Noah, sans-serif ; 
-    font-size: 15px;
-    font-weight: 400;
+.para {
+  font-family: Noah, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.eat{
-    color: rgb(193, 157, 96);
-    font-size: 19px;
-    font-weight: 700;
-    font-family: Noah, sans-serif;
+.eat {
+  color: rgb(193, 157, 96);
+  font-size: 19px;
+  font-weight: 700;
+  font-family: Noah, sans-serif;
 }
 
-.fa{
-font-size: 30px;
-color: rgb(193, 157, 96);
+.fa {
+  font-size: 30px;
+  color: rgb(193, 157, 96);
 }
 
-.line1a{
-    width: 7%;
-    height: 0.2px;
-    background: rgba(193, 157, 96, 0.357);
-    margin-top: 10px;
+.line1a {
+  width: 7%;
+  height: 0.2px;
+  background: rgba(193, 157, 96, 0.357);
+  margin-top: 10px;
 }
-.ted, .teds{
-    color: rgb(193, 157, 96);
-    font-weight:500 ;
+.ted,
+.teds {
+  color: rgb(193, 157, 96);
+  font-weight: 500;
 }
 
-.star{
-    background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)), url(./images/banner5.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top center;
-    height: 80vh;
-    position:relative;
+.star {
+  background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),
+    url(./images/banner5.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  height: 80vh;
+  position: relative;
 }
 
-.hour{
-    height: 450px;
-    width: 500px;
-    background-color: rgb(27,27,27);
-    position: absolute;
-    left: 60%;
-    top: 300px;
-    padding: 2rem;
+.hour {
+  height: 450px;
+  width: 500px;
+  background-color: rgb(27, 27, 27);
+  position: absolute;
+  left: 60%;
+  top: 300px;
+  padding: 2rem;
 }
-
 
-.emily{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: 3px rgba(245, 245, 245, 0.271) solid;
+.emily {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px rgba(245, 245, 245, 0.271) solid;
 }
-.mages{
-    border-radius: 50%;
+.mages {
+  border-radius: 50%;
 }
 
-.customer-review{
-    padding-top:15rem;
+.customer-review {
+  padding-top: 15rem;
 }
 
-.low{
-    margin-right:35rem;
-    line-height: 25px;
-    color: aliceblue;
-    font-weight: 600;
+.low {
+  margin-right: 35rem;
+  line-height: 25px;
+  color: aliceblue;
+  font-weight: 600;
 }
 
-.review{
-    line-height: 10px;
-    
+.review {
+  line-height: 10px;
 }
 
-.emil{
-    color: rgb(193, 157, 96);
-    font-weight: 400;
+.emil {
+  color: rgb(193, 157, 96);
+  font-weight: 400;
 }
 
-.conz{
-    font-weight: 500;
-    color: beige;
-    font-size: 12px;
+.conz {
+  font-weight: 500;
+  color: beige;
+  font-size: 12px;
 }
 
-.fa-star{
-    font-size: 15px;
+.fa-star {
+  font-size: 15px;
 }
 
-.saturday{
-    justify-content: space-evenly;
-    padding-top: 2.5rem;
+.saturday {
+  justify-content: space-evenly;
+  padding-top: 2.5rem;
 }
 
-.lineb{
-    /* padding: 4px; */
-    height: 4rem;
-    color:white;
+.lineb {
+  /* padding: 4px; */
+  height: 4rem;
+  color: white;
 }
 
-.time{
-    font-family: "Libre Caslon Display", serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height:25px;
-    color: rgb(119, 119, 119);
+.time {
+  font-family: "Libre Caslon Display", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgb(119, 119, 119);
 }
 
-.fri{
-    font-weight: 500;
+.fri {
+  font-weight: 500;
 }
-.open{
-    font-family: "Libre Caslon Display", serif;
-    font-size: 36px;
+.open {
+  font-family: "Libre Caslon Display", serif;
+  font-size: 36px;
 }
 
-
-.btn2{
-    font-family: Noah, sans-serif;
-    Font-size:12px;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    padding: 0.7rem 2rem;
-    border: 1px burlywood solid;
-   margin-left: 7rem;
+.btn2 {
+  font-family: Noah, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  padding: 0.7rem 2rem;
+  border: 1px burlywood solid;
+  margin-left: 7rem;
 }
-.btn2:hover{
-        background: burlywood;
-        transition: 0.9s;
-        color: white;
+.btn2:hover {
+  background: burlywood;
+  transition: 0.9s;
+  color: white;
 }
 
-span{
-    color:  rgb(193, 157, 96);
-    font-weight: 400;
+span {
+  color: rgb(193, 157, 96);
+  font-weight: 400;
 }
 
-.map{
-    font-size: 13px;
-    line-height: 10px;
+.map {
+  font-size: 13px;
+  line-height: 10px;
 }
-.num{
-    font-size: 13px;
-    line-height: 10px;
-    margin-top: 3rem;
+.num {
+  font-size: 13px;
+  line-height: 10px;
+  margin-top: 3rem;
 }
 
-.fa-map-marker{
-    font-size: 14px;
+.fa-map-marker {
+  font-size: 14px;
 }
-
-.lunch{
 
-    height: 60vh;
-    color: rgb(255,255,255);
-    
+.lunch {
+  height: 60vh;
+  color: rgb(255, 255, 255);
 }
 
-.card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: none;
-    gap: 1.5rem;
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  gap: 1.5rem;
 }
 
-.charli{
-    padding-top: 7rem;
+.charli {
+  padding-top: 7rem;
 }
 
-.fa-coffee, .fa-cutlery{
-    font-size: 60px;
-    margin-left: 2rem;
+.fa-coffee,
+.fa-cutlery {
+  font-size: 60px;
+  margin-left: 2rem;
 }
 
-.fast{
-    font-family: Libre Caslon Display, serif;
-    color: rgb(27, 27, 27);
-    font-weight: 400;
-    font-size: 27px;
+.fast {
+  font-family: Libre Caslon Display, serif;
+  color: rgb(27, 27, 27);
+  font-weight: 400;
+  font-size: 27px;
 }
 
-.fast1{
-    color: rgb(119, 119, 119);
-    font-size: 15px;
-    font-family: Noah, sans-serif;
+.fast1 {
+  color: rgb(119, 119, 119);
+  font-size: 15px;
+  font-family: Noah, sans-serif;
 }
 
-.flow{
-    height: 90vh;
-    background-color: rgb(27,27,27);
+.flow {
+  height: 90vh;
+  background-color: rgb(27, 27, 27);
 }
 
-.chas{
-    color: whitesmoke;
-    font-family: "Libre Caslon Display", serif;
-    font-size:50px;
-    padding-top: 5rem;
+.chas {
+  color: whitesmoke;
+  font-family: "Libre Caslon Display", serif;
+  font-size: 50px;
+  padding-top: 5rem;
 }
 
-.blank{
-    background-color: rgb(255,255,255);
-    height: 50vh;
-   
+.blank {
+  background-color: rgb(255, 255, 255);
+  height: 50vh;
 }
 
-.teds{
-    color: rgb(193, 157, 96);
-    font-weight:500 ;
-    font-size: 15px
+.teds {
+  color: rgb(193, 157, 96);
+  font-weight: 500;
+  font-size: 15px;
 }
 
-.icon2{
-    
-   padding-top: 20rem;
-    color: white;
+.icon2 {
+  padding-top: 20rem;
+  color: white;
 }
 
-.freepix{
-    width: 10%;
+.freepix {
+  width: 10%;
 }
 
-.cur{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: rgb(193, 157, 96);
-    line-height: 35px;
+.cur {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(193, 157, 96);
+  line-height: 35px;
 }
 
-.fresh{
-    font-family: "Libre Caslon Display", serif;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 10px;
-    position: relative;
-    bottom: 200px;
-    color: white;
-    font-weight: bold;
+.fresh {
+  font-family: "Libre Caslon Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 10px;
+  position: relative;
+  bottom: 200px;
+  color: white;
+  font-weight: bold;
 }
 
-
-.coll{
-    height: 60vh;
+.coll {
+  height: 60vh;
 }
-
-
 
 .flip-card {
-    background-color: transparent;
-    width: 350px;
-    height: 400px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px;
-    border:none;
-    
-  }
-
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-    position: absolute;
-  }
-
-  .flip-card-back {
-    background-color: rgb(236, 236, 236);
-    color: white;
-    height: 60vh;
-    transform: rotateY(180deg);
-    padding: 7rem 1.5rem;
-
-  }
-
-  .btn5{
-    background-color: rgb(42, 41, 41);
-    color: white;
-    padding: 10px 2rem;
-    line-height: 19px;
-  }
-
-  .btn5:hover{
-    color: rgb(80, 79, 79);
-    font-weight: 500;
-    background-color: white;
-    border: 1px solid black;
-  }
-
-  .currentt{
-    font-family: Noah, sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 19px;
-    color: rgb(193, 157, 96);
-  }
-
-  .meals{
-    line-height:26.25px;
-    color: rgb(78, 76, 76);
-    font-weight: 500;
-    font-size: 25px;
-    font-family: Libre Caslon Display, serif;
-  }
-.loom{
-    line-height:26.25px;
-    color: rgb(146, 144, 144);
-    font-weight: 500;
+  background-color: transparent;
+  width: 350px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  border: none;
 }
 
-.push{
- margin-top: 10rem;
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
-  
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  position: absolute;
+}
+
+.flip-card-back {
+  background-color: rgb(236, 236, 236);
+  color: white;
+  height: 60vh;
+  transform: rotateY(180deg);
+  padding: 7rem 1.5rem;
+}
+
+.btn5 {
+  background-color: rgb(42, 41, 41);
+  color: white;
+  padding: 10px 2rem;
+  line-height: 19px;
+}
+
+.btn5:hover {
+  color: rgb(80, 79, 79);
+  font-weight: 500;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.currentt {
+  font-family: Noah, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  color: rgb(193, 157, 96);
+}
+
+.meals {
+  line-height: 26.25px;
+  color: rgb(78, 76, 76);
+  font-weight: 500;
+  font-size: 25px;
+  font-family: Libre Caslon Display, serif;
+}
+.loom {
+  line-height: 26.25px;
+  color: rgb(146, 144, 144);
+  font-weight: 500;
+}
+
+.push {
+  margin-top: 10rem;
+}
+
+.tabs {
+  height: 90vh;
+  background-color: rgb(27, 27, 27);
+}
+
+.tab1 {
+  color: white;
+}
+
+
+
+.menu-image {
+  border-radius: 50%;
+}
+
+.linee {
+  width: 41%;
+  height: 0.1px;
+  background: rgba(255, 255, 255, 0.313);
+  margin-top: 0rem;
+}
+
+.menu-dets {
+  padding-left: 6rem;
+}
+
+.fry {
+  padding-left: 5rem;
+}
+.spar {
+  line-height: 20px;
+}
+
+.check {
+  line-height: 7px;
+  align-items: center !important;
+}
+
+.tabs ul{
+  padding-top: 7rem;
+}
+
+/* .{background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),
+url(./images/wine.jpg);
+background-size: cover;
+height: 100%;} */
+
+
+.Executive{
+  background-color: rgb(27, 27, 27);
+}
+
+.cha1{
+  text-align: center;
+
+}
+
+.ted1{
+  color: rgb(193, 157, 96);
+  font-weight: 500;
+  font-size: "Pinyon Script", cursive;
+  font-size: 18px;
+}
