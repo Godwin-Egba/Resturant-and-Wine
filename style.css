@@ -155,7 +155,6 @@ h5 {
   background-color: rgb(27, 27, 27);
   height: 100vh;
   margin-top: 4.5rem;
-  /* padding: 2rem 13rem; */
 }
 
 .chelf1 {
@@ -166,7 +165,6 @@ h5 {
 
 .years {
   width: 50%;
-  /* padding: 0rem 7rem 0rem 3rem; */
 }
 
 .images {
@@ -225,6 +223,7 @@ h5 {
   overflow: hidden;
   margin-top: 3rem;
 }
+
 
 .food1:hover {
   transform: scale(1.1);
@@ -593,7 +592,7 @@ span {
 .flip-card-back {
   background-color: rgb(236, 236, 236);
   color: white;
-  height: 60vh;
+  height: 67vh;
   transform: rotateY(180deg);
   padding: 7rem 1.5rem;
 }
@@ -646,8 +645,6 @@ span {
   color: white;
 }
 
-
-
 .menu-image {
   border-radius: 50%;
 }
@@ -679,14 +676,11 @@ span {
   padding-top: 7rem;
 }
 
-/* .{background: linear-gradient(rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.488)),
-url(./images/wine.jpg);
-background-size: cover;
-height: 100%;} */
-
 
 .Executive{
-  background-color: rgb(27, 27, 27);
+  background-color:rgb(27, 27, 27);
+  height: 80vh;
+  border: #f1f1f164 1px solid;
 }
 
 .cha1{
@@ -700,3 +694,413 @@ height: 100%;} */
   font-size: "Pinyon Script", cursive;
   font-size: 18px;
 }
+
+.meet1{
+  font-size: 40px;
+}
+
+.chef1{
+ background-image: url(./images/chef1.jpg);
+  background-size: cover;
+  background-position: Bottom center;
+  height: 60vh;
+
+}
+
+.Executive{
+  position: relative;
+}
+
+.executive-chef {
+  position: absolute;
+  top: 45%;
+  left:12.5rem;}
+
+.chef2{
+ background-image: url(./images/chef2.jpg);
+  background-size: cover;
+  background-position: Bottom center;
+  height: 60vh;
+
+}
+
+
+.chef3{
+ background-image: url(./images/chef3.jpg);
+  background-size: cover;
+  background-position: Bottom center;
+  height: 60vh;
+}
+
+
+
+.blank1{
+  background-color: #f1f1f1;
+  height: 50vh;
+}
+
+.chef-info{
+  text-align: center;
+  /* display: none; */
+  /* height: 60vh; */
+  /* display: none; */
+  /* margin-top: 15rem; */
+}
+.chef-icons{
+  text-align: center;
+  /* display: none; */
+}
+
+.chef-display{
+  background-color: #d7d6d6;
+ width: 70%;
+ text-align: center;
+ position: absolute;
+ top: 87%;
+ left: 15%;
+ transition: 0.9s;
+}
+.Dan1{
+  font-family: "Libre Caslon Display", serif;
+  font-size: 24px;
+  font-weight: 400;
+  color:black;
+  /* line-height: 13px; */
+}
+.head-chef{
+  font-size: 15px;
+  font-weight: 400;
+  color: #6b6969;
+}
+
+ .chef-display-info{
+  display: none;
+  transition: 0.9s;
+  padding-top: 10rem;
+}
+
+.Executive .chef1:hover .chef-display{
+  display: none;
+  transition: all 5s;
+}
+.Executive .chef1:hover .chef-display-info{
+  background-color: rgba(0, 0, 0, 0.775);
+  display: block;
+  height: 100%;
+}
+.Dan{
+  font-size: 26px;
+  line-height: 2px;
+}
+.Executive .chef2:hover .chef-display{
+  display: none;
+  transition: all 5s;
+}
+.Executive .chef2:hover .chef-display-info{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.775);
+  height: 100%;
+}
+
+.image-rag{
+  background-image: url(./images/banner3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height:85vh;
+  transition: 1s ease-in-out;
+}
+
+
+
+.image-rag:hover {
+  transform:scale(1.01);
+  transition: 1s ease-in-out;
+ 
+}
+
+
+.wine-price{
+  width: 50%;
+  height: 85vh;
+  background-color:rgb(27, 27, 27);
+}
+
+.winary{
+  width: 100%;
+  display: flex;
+}
+
+.image-rag img{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  margin-top: 3rem;
+}
+
+.price-colo{
+  font-family:'Times New Roman', Times, serif;
+}
+.price-colo1{
+  color: rgb(193, 157, 96) !important;
+}
+
+.our-service{
+  background-color: rgb(240, 236, 236);
+  height: 125vh;
+}
+
+.our-service-head{
+  padding-left: 30rem;
+}
+
+.card1{
+  width: 32%;
+  height: 35vh;
+  background-color:rgb(255, 255, 255);
+}
+
+.card-section{
+  gap: 20px !important;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+}
+
+.card-pizza-head{
+  line-height: 40px;
+}
+.fa-coffee{
+  font-size: 3rem;
+  color: rgb(193, 157, 96);
+}
+.fa-coffee:hover{
+  color: rgb(28, 28, 28);
+  transform: rotate(180deg);
+}
+.cheese{
+  font-family: "Libre Caslon Display", serif;
+  font-size: 1.5rem;
+  color:rgb(28, 28, 28);
+}
+.cheese:hover{
+  color: rgb(193, 157, 96);
+
+}
+
+.line1b {
+  width: 15%;
+  height: 0.2px;
+  background: rgba(193, 157, 96, 0.357);
+  margin-top: 10px;
+}
+
+.bg4 {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)),
+    url(./images/3\ \(8\).jpg);
+  background-size: cover;
+  line-height: 25px;
+}
+.bg5 {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)),
+    url(./images/1\ \(9\).jpg);
+  background-size: cover;
+}
+.bg6 {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)),
+    url(./images/2\ \(9\).jpg);
+  background-size: cover;
+}
+
+.food-content{
+  padding-top: 12rem;
+  position: relative;
+}
+.tags{
+  position: absolute;
+  font-weight: 500;
+  top: 55%;
+  left: 49%;
+  transform: rotate(45deg);
+}
+.tag1, .tag2{
+  position: absolute;
+  font-weight: 500;
+  top: 57%;
+  left: 49%;
+  transform: rotate(45deg);
+}
+
+.pulsate-bck {
+	-webkit-animation: pulsate-bck 0.9s ease-in-out infinite both;
+	        animation: pulsate-bck 0.9s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+
+.fa-certificate{
+  font-size: 4rem;
+}
+
+.daily{
+  color: rgb(193, 157, 96);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.events{
+  height: 70vh;
+  background-color:rgb(27, 27, 27);
+  position: relative;
+}
+.carosel-slid{
+  position: absolute;
+  top: 40%;
+  left: 210px;
+}
+.increas{
+  height: 80vh;
+}
+
+
+.news{
+  font-size: 20px;
+  color: rgb(193, 157, 96);
+}
+
+.news-event{
+  color: antiquewhite;
+  font-size: 52px;
+}
+
+.draw-image{
+  height: 50vh;
+  position: relative;
+  
+}
+.event-news{
+  padding-top: 1rem;
+  position: absolute;
+  top: 85%;
+  background-color: rgb(255, 255, 255);
+  height: 18vh;
+  width: 80%;
+  transition: 0.5s;
+}
+
+.draw-image .event-news:hover{
+  background-color:rgb(33, 37, 41);
+  color: white;
+  transform: translateY(-90px);
+  transition: 0.5s;
+}
+
+
+.slid-blank{
+  background-color: antiquewhite;
+  height: 40vh;
+}
+
+.date{
+  position: absolute;
+  left: 10%;
+  bottom: 80%;
+  color: white;
+  line-height: 15px;
+  font-weight: 500;
+  border: 1px rgba(255, 255, 255, 0.649) solid;
+  padding: 3px 10px;
+}
+
+
+.mains{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(193, 157, 96);
+}
+.york{
+  font-size: 22px;
+  text-align: left;
+}
+
+.cardd:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.make-reserve{
+  background-image: url(./images/banner12.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.reserve{
+  width: 35%;
+  height:40vh ;
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
