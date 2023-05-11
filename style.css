@@ -171,7 +171,7 @@ h5 {
 
 .years {
   width: 50%;
-  padding-top: 12rem;
+  padding-top: 7rem;
 }
 
 /* .images {
@@ -511,7 +511,7 @@ span {
 }
 
 .flow {
-  height: 90vh;
+  height: 110vh;
   background-color: rgb(27, 27, 27);
 }
 
@@ -727,7 +727,8 @@ span {
 .executive-chef {
   position: absolute;
   top: 45%;
-  left:12.5rem;}
+  left:7rem;
+}
 
 .chef2{
  background-image: url(./images/chef2.jpg);
@@ -819,7 +820,7 @@ span {
   background-image: url(./images/banner3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50%;
+  width: 100%;
   height:85vh;
   transition: 1s ease-in-out;
 }
@@ -834,14 +835,14 @@ span {
 
 
 .wine-price{
-  width: 50%;
+  width: 100%;
   height: 85vh;
   background-color:rgb(27, 27, 27);
 }
 
 .winary{
   width: 100%;
-  display: flex;
+  /* display: flex; */
 }
 
 .image-rag img{
@@ -1295,7 +1296,7 @@ span {
   background-attachment: fixed;
   background-size: cover;
   background-position: top center;
-  height: 70vh;
+  height: 100vh;
   position: relative;
 }
 .hour {
@@ -1304,7 +1305,7 @@ span {
   background-color: rgb(27, 27, 27);
   position: absolute;
   left: 5%;
-  top: 60px;
+  top: 40px;
   /* padding: 10px; */
 }
 
@@ -1319,7 +1320,7 @@ span {
 }
 
 
-.header {
+ .header {
   background-color: rgb(108, 106, 106) !important;
   position: fixed;
   z-index: 9999;
@@ -1378,6 +1379,60 @@ span {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+}
+
+.icon{
+  margin-right: 2rem;
+  /* padding-top: 2rem; */
+}
+
+
+.tabs {
+  height: auto;
+  background-color: rgb(27, 27, 27);
+}
+
+.Executive{
+  position: relative;
+}
+
+.executive-chef {
+  position: absolute;
+  top: 30%;
+  left:5px;
+}
+
+
+.our-service-head{
+  padding-left: 0rem;
+}
+
+.card-section{
+  gap: 20px !important;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column !important;
+}
+
+.card1{
+  width: 100%;
+  height: 35vh;
+  background-color:rgb(255, 255, 255);
+}
+
+.imgbox{
+  width: 25%;
+}
+
+.wine-price{
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(27, 27, 27);
+
+}
+
+.wine-bar-menue{
+  padding-top: 30px;
 }
 
  
